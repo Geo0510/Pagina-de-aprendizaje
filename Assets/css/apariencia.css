@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    background-color:#fff;
+    margin: 0;
+    margin-top: 90px;
+}
+
+img{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* .MoverImagen{
+    /* display: inline;
+    text-align: center;
+} */
+
+.cabezera{
+    background-color: #fff;
+    position:fixed;
+    top: 0; 
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    /* border-bottom: 2px dashed black; */
+    /* border-radius: 20px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.cabezera h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+}
+
+/* .sidebar{
+    background-color: #11635f;
+    width: 15%;
+    position:fixed;
+    border: none;
+    height: 590px;
+    color: black;
+    /* padding-bottom: 60px; 
+} 
+*/
+
+.actividades{
+    max-width: 58%;
+    padding: 0.5em;
+    text-align:left;
+    margin: 0 auto;
+} 
+
+.MiniMenu{ 
+    background-color: #fff;
+    padding: 1px;
+    /* border: none; */
+    /* border-radius: 30px; */
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/* .separar{
+    padding: 4px;
+} */
+
+.inicio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: rgb(83, 189, 176);
+    color:black;
+    display: inline-block;
+    
+    border-radius: 5px;
+    padding: 4px;
+    margin: 5px;
+}
+
+.cuadros{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    width: 28%;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(41, 111, 197);
+    border-radius: 25px;
+    display: inline-block;
+    margin: 25px;
+    padding: 15px;
+}
+
+.cuerpo {
+    text-align: center;
+    padding-bottom:60px; /* este valor debe ser igual o mayor al alto del pie */
+    /* margin-left: 200px; */
+}
+
+.cuerpo h2{
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+.tables{
+    width: 40%;
+    padding: 1px;
+    margin: 0 auto;
+    border: 1px dashed black
+}
+
+tr .fila{
+    text-align: center;
+    padding: 3.5px;
+}
+
+.form-buttom{
+    background-color: #0b7474;
+    border: rgb(4, 42, 46) 2px solid;
+    border-radius: 15px;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.form-control{
+    width: 20%;
+    padding: 6px 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;  
+}
+
+.resultado{
+    font-family:monospace;
+    font-size: large;
+}
+
+.pie{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    line-height:50px;
+    background:rgb(83, 189, 176);
+    color:black;
+    text-align:center;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 650px) {
+    body{
+        margin-top: 75px;
+        /* margin-bottom: 50px; */
+    }
+    .cabezera h1{
+        font-size: small;
+    }
+    .cuerpo h2{
+        font-family: monospace;
+        font-size: 1em;
+    }
+    .inicio{
+        font-size: 12px;
+    }
+    .actividades{
+        font-size: 12px;
+        padding: 4px ;
+    }
+    .cuadros{
+        font-size: 1em;
+    }
+    .resultado{
+        font-size: 1.2em;
+    }
+} 
+
+@media screen and (min-width: 850px,1000px) {
+    body{
+        margin-top: 75px;
+        /* margin-bottom: 50px; */
+    }
+    .cabezera h1{
+        font-size: 0.9em;
+    }
+    .cuerpo h2{
+        font-size: 0.9em;
+    } 
+    .cuadros{
+        font-size: medium;
+    }
+    a .inicio{
+        font-family:Georgia, Times, 'Times New Roman', serif;
+        font-size: smaller;
+    }
+    .actividades{
+        font-size: 12px;
+        padding: 4px ;
+    }
+    .resultado{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+    }
+    .cuadros{
+        font-size:1.4em ;
+    }
+}
+
+/* @media only screen and (max-width: 800px) {
+    a .inicio{
+       font-size: medium;
+    }
+    section{
+        margin: 0.5em 1em;
+        font-size: medium;
+    }
+
+    img{
+        height: 250px;
+        width: 250px;
+    }
+}  */
+
+
